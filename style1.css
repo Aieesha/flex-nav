@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.navbar{
+    background-color: salmon;
+    font-size: 25px;
+    font-weight: bold;
+    height: 80px;
+    padding: 30px;
+}
+
+.navbar .container{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 70px;
+}
+
+.navbar ul{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    margin-left: 20px;
+}
+
+.navbar li a{
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 20px;
+    color: white;
+}

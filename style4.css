@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.navbar ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex; 
+}
+.navbar li a{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    margin-left: 20px;
+    color: white;
+}
